@@ -1,6 +1,6 @@
 {
   "name": "js-vue-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "front-end-john",
   "main": "lib/js-vue-ui.umd.min.js",
   "description": "john 开发的第一个基于 vue-cli3 的 UI 组件库",
