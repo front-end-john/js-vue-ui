@@ -3,9 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 // 导入组件库
-import uiLib from './../packages'
+import jsVueUi from './../packages'
 // 注册组件库
-Vue.use(uiLib)
+Vue.use(jsVueUi)
 
 Vue.config.productionTip = false
 

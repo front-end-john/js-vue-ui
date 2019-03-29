@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <loading></loading>
+    <js-loading>
+      loading
+    </js-loading>
   </div>
 </template>
 
