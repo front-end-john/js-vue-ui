@@ -29,6 +29,10 @@ npm run lint
 ```
 npm run lib
 ```
+### git repository url
+```
+https://github.com/front-end-john/js-vue-ui
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
