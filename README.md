@@ -34,5 +34,10 @@ npm run lib
 https://github.com/front-end-john/js-vue-ui
 ```
 
+### config nginx page url
+```
+http://localhost:8080/code/www/dist/index.html
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

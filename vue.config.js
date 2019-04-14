@@ -1,5 +1,6 @@
 const path = require('path')
 module.exports = {
+  publicPath: './', // css js img 使用相对路径
   // 修改 pages 入口
   pages: {
     index: {
@@ -8,6 +9,7 @@ module.exports = {
       filename: 'index.html' // 输出文件
     }
   },
+  productionSourceMap: false,
   css: {
     loaderOptions: {
       // 给 stylus-loader 传递选项

@@ -1,8 +1,32 @@
 <template>
   <div id="app">
+    <nav id="nav">
+      <router-link
+        v-for="item in navList"
+        :to="item.val"
+        :key="item.val">
+        {{item.name}}
+      </router-link>
+    </nav>
     <router-view/>
   </div>
 </template>
+<script>
+  export default {
+    name: 'home',
+    data() {
+      return {
+        navList: [{
+          name: '首页',
+          val: 'index'
+        }, {
+          name: '关于我们',
+          val: 'aboutUs'
+        }]
+      }
+    }
+  }
+</script>
 <style lang="stylus">
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
