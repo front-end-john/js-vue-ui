@@ -5,12 +5,12 @@
     </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
     export default {
         name: "404"
     }
 </script>
 
-<style scoped>
+<style lang="stylus" rel="stylesheet/stylus" scope>
 
 </style>

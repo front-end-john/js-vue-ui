@@ -6,9 +6,9 @@ import aboutUs from './views/aboutUs'
 import NotFoundComponent from './views/404'
 
 Vue.use(Router)
-
+const base = process.env.NODE_ENV === 'production' ? '/js-vue-ui' : '/';
 export default new Router({
-  base: '/js-vue-ui',  // 浏览器URL 基础路径
+  base: base,  // 浏览器URL 基础路径
   mode: 'history',
   linkActiveClass: 'active',
   routes: [

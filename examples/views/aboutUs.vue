@@ -2,12 +2,12 @@
     <div class="about-us">关于我们</div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
     export default {
         name: "about-us"
     }
 </script>
 
-<style scoped>
+<style lang="stylus" rel="stylesheet/stylus" scope>
 
 </style>
