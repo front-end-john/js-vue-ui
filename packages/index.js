@@ -1,9 +1,37 @@
 // https://juejin.im/post/5c95c61f6fb9a070c40acf65
-import jsLoading from './loading'
+import jsLoading from './components/loading'
+/*import {
+  // style
+  Style,
+  // locale
+  Locale,
+  // popup
+  Popup,
+  Picker,
+  CascadePicker,
+  DatePicker,
+  TimePicker,
+  // module
+  BetterScroll,
+  createAPI
+} from './module'*/
 
 // 所有组件列表
 const components = [
-  jsLoading
+  jsLoading,
+  /*// style
+  Style,
+  // locale
+  Locale,
+  // popup
+  Popup,
+  Picker,
+  CascadePicker,
+  DatePicker,
+  TimePicker,
+  // module
+  BetterScroll,
+  createAPI*/
 ]
 
 // 定义 install 方法，接收Vue作为参数
